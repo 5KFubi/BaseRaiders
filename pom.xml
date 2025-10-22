@@ -10,36 +10,21 @@
   <packaging>jar</packaging>
   <name>BaseRaiders API</name>
 
-  <repositories>
-    <!-- Paper -->
-    <repository>
-      <id>papermc-repo</id>
-      <url>https://papermc.io/repo/repository/maven-public/</url>
-    </repository>
 
-    <!-- BungeeCord -->
+  <dependencies>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.20.2-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+  <repositories>
     <repository>
       <id>spigot-repo</id>
       <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
     </repository>
   </repositories>
-
-
-  <dependencies>
-    <!-- Paper -->
-    <dependency>
-      <groupId>io.papermc.paper</groupId>
-      <artifactId>paper-api</artifactId>
-      <version>1.20.4-R0.1-SNAPSHOT</version>
-      <scope>provided</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>net.md-5</groupId>
-      <artifactId>bungeecord-chat</artifactId>
-      <version>1.20-R0.2-deprecated+build.18</version>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
 
 </project>
