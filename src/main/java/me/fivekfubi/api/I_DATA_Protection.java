@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface I_DATA_Protection {
- 
+
     String get_id();
     void set_id(String id);
 
