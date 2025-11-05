@@ -39,3 +39,10 @@ dependencies {
   implementation("com.github.5KFubi:BaseRaiders:2.0") <!-- Make sure to match with the plugin's version -->
 }
 ```
+
+---
+
+# Provider
+```java
+public BaseRaidersProvider provider = BaseRaidersAPI.get();
+```
