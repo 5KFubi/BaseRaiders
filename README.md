@@ -11,7 +11,7 @@ Add this to your `pom.xml` accordingly:
 <dependency>
   <groupId>com.github.5KFubi</groupId>
   <artifactId>BaseRaiders</artifactId>
-  <version>2.0</version> <!-- Make sure to match with the plugin's version -->
+  <version>2.0.4</version> <!-- Make sure to match with the plugin's version -->
   <scope>provided</scope>
 </dependency>
 ```
@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'com.github.5KFubi:BaseRaiders:2.0' <!-- Make sure to match with the plugin's version -->
+  implementation 'com.github.5KFubi:BaseRaiders:2.0.4' <!-- Make sure to match with the plugin's version -->
 }
 ```
 
@@ -36,7 +36,7 @@ repositories {
 }
 
 dependencies {
-  implementation("com.github.5KFubi:BaseRaiders:2.0") <!-- Make sure to match with the plugin's version -->
+  implementation("com.github.5KFubi:BaseRaiders:2.0.4") <!-- Make sure to match with the plugin's version -->
 }
 ```
 
