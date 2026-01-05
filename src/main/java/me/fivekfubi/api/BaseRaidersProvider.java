@@ -17,4 +17,6 @@ public interface BaseRaidersProvider {
     boolean has_permission(Player player, Location event_location, String permission);
     boolean has_permission(UUID uuid, Location event_location, String permission);
     boolean has_permission(String uuid_string, Location event_location, String permission);
+
+    I_DATA_Protection get_within_protection(Location location);
 }
