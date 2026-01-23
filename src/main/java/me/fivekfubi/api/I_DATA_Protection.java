@@ -283,12 +283,6 @@ public interface I_DATA_Protection {
     int get_c_crops_exp_amount();
     void set_c_crops_exp_amount(int c_crops_exp_amount);
 
-    double get_c_mobs_looting_multiplier();
-    void set_c_mobs_looting_multiplier(double c_mobs_looting_multiplier);
-
-    double get_c_mobs_exp_multiplier();
-    void set_c_mobs_exp_multiplier(double c_mobs_exp_multiplier);
-
     int get_c_spawner_limit_bonus();
     void set_c_spawner_limit_bonus(int c_spawner_limit_bonus);
 
